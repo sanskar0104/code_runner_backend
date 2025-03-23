@@ -20,4 +20,5 @@ ENV AIDER_MODEL=gemini/gemini-1.5-pro-latest
 EXPOSE 10000
 
 # Run FastAPI with Gunicorn
-CMD ["gunicorn", "app.main:app", "-k", "uvicorn.workers.UvicornWorker", "-w", "2", "-b", "0.0.0.0:10000"]
+CMD ["gunicorn", "app.main:app", "-k", "uvicorn.workers.UvicornWorker", "-w", "4", "-t", "300", "-b", "0.0.0.0:10000"]
+
