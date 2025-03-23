@@ -13,9 +13,8 @@ COPY . /app
 RUN pip install --no-cache-dir -r requirements.txt && \
     pip install aider-chat
 
-# Set environment variables for Gemini
-ENV AIDER_MODEL=google/gemini-pro  
-# Use AI Studio Gemini
+# Set correct model
+ENV AIDER_MODEL=gemini/gemini-1.5-pro-latest
 
 # Expose port
 EXPOSE 10000
