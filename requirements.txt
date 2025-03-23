@@ -11,3 +11,4 @@ tensorflow
 torch
 transformers
 gunicorn
+google-generativeai
