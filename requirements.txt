@@ -12,4 +12,3 @@ torch
 transformers
 gunicorn
 google-generativeai
-pexpect
