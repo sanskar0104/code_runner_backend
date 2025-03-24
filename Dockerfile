@@ -16,6 +16,8 @@ RUN pip install --no-cache-dir -r requirements.txt && \
 # Set correct model
 ENV AIDER_MODEL=gemini/gemini-1.5-pro-latest
 
+ENV LANG=C.UTF-8
+
 # Expose port
 EXPOSE 10000
 
