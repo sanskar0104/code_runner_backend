@@ -170,6 +170,6 @@ async def upload_json(file: UploadFile = File(...)):
             return {"result": json.load(f)}
 
     except Exception as e:
-        return {"error": str(e)}, status_code=500)
+        return JSONResponse({"error": str(e)}, status_code=500)
     finally:
         shutil.rmtree(run_dir)
