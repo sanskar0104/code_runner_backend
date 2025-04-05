@@ -7,7 +7,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["actual_frontend_url"],  # Your GitHub Pages frontend
+    allow_origins=["https://sanskar0104.github.io/code_runner_frontend/"],  # Your GitHub Pages frontend
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
