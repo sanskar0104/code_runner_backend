@@ -13,4 +13,3 @@ transformers
 gunicorn
 google-generativeai
 aiofiles
-litellm
