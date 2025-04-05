@@ -7,7 +7,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://your-frontend.vercel.app"],  # Replace with actual frontend domain
+    allow_origins=["https://sanskar0104.github.io/code_runner_frontend/"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
