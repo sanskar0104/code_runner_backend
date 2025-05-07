@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt && \
     pip install aider-chat
 
 # Set correct model
-ENV AIDER_MODEL=gemini/gemini-1.5-pro-latest
+ENV AIDER_MODEL=openai/gpt-4o-mini
 
 # Expose port
 EXPOSE 10000
