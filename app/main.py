@@ -11,7 +11,8 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",
         "http://172.17.48.231:3000",
-        "https://sanskar0104.github.io"
+        "https://sanskar0104.github.io",
+        "https://ideaverse-frontend.vercel.app/"
     ],
     allow_credentials=True,
     allow_methods=["*"],
